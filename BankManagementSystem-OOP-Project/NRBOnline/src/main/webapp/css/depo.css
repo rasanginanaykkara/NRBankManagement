@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body {
+    font-family: helvetica, sans-serif;
+  }
+  
+  fieldset {
+    min-height: 200px;
+  }
+  
+  .standard-label, .standard-input {
+      display: block;
+  }
+  
+  .standard-label {
+    margin-bottom:27px;
+     
+  }
+  
+  
+  input[type ="submit"] {
+      cursor: pointer;
+      background-color:darkblue; 
+      border:  4px black;
+      margin-left: 100px;
+      text-align: center;
+      font-size: 16px;
+      box-shadow: 0 12px 16px 0 rgba(199, 194, 194, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      border-radius: 7px;
+      color: white;
+  }
+  
+  input[type ="submit"]:hover{
+    background-color:#9aa4b5;
+    color:black;
+  }
+   
+  input[type="button"]{
+      cursor: pointer;
+      background-color: darkblue;
+      border: 4px black;
+      margin-left: 100px;
+      text-align: center;
+      font-size: 16px;
+      box-shadow: 0 12px 16px 0 rgb(199 194 194 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+      border-radius: 7px;
+      color: white;
+    }
+  
+  .standard-input, .standard-select {
+    margin-top: 10px;
+    border: 3px lightsteelblue solid;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  
+  .standard-input {
+    height: 25px;
+    width: 250px;
+    font-size: 1em;
+  }
+  
+  .standard-select {
+    height: 32px;
+    width: 150px;
+    font-size: 1em;
+  }
+  
+ 
+  .container {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px black solid;
+    padding: 10px;
+    background-color: lightsteelblue; 
+  }
+  
+  .sub-container {
+    padding-left: 10px;
+    background-color: white;
+    margin: 10px auto;
+
+
+  }
+  #get-consent {
+    border: 2px black solid;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    margin: 15px 20px;
+    height: 35px;
+    width: 87px;
+    font-size: 20px;
+    float: right;
+}
+  #consent {
+    
+    border: 2px black solid;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    margin: 15px auto;
+    height: 35px;
+    width:70px;
+    font-size: 20px;
+    float: right;
+  }
+ 
+

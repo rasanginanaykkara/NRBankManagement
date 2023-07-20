@@ -1,0 +1,84 @@
+body {
+    font-family: helvetica, sans-serif;
+  }
+  
+  fieldset {
+    min-height: 200px;
+  }
+  
+  .standard-label, .standard-input {
+      display: block;
+  }
+  
+  .standard-label {
+    margin-bottom: 20px;
+  }
+  
+  .standard-input, .standard-select {
+    margin-top: 10px;
+    border: 3px lightsteelblue solid;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  
+  .standard-input {
+    height: 25px;
+    width: 250px;
+    font-size: 1em;
+  }
+  
+  .standard-select {
+    height: 32px;
+    width: 150px;
+    font-size: 1em;
+  }
+  
+  #account-select {
+    width: 260px;
+  }
+  
+  .container {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px black solid;
+    padding: 10px;
+    background-color: lightsteelblue; 
+  }
+  
+  .sub-container {
+    padding-left: 10px;
+    background-color: white;
+    margin: 10px auto;
+  }
+  
+  .required {
+    font-size: 1.5em;
+    color: red;
+  }
+  .small-heading {
+    font-size: 18px;
+  }
+  
+  .radio-label {
+    font-size: 20px;
+    margin: 0 40px;
+  }
+  
+  .radio-input {
+    margin-bottom: 25px;
+  }
+  
+  button {
+    border: 2px black solid;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+  }
+  
+  
+  
+  
